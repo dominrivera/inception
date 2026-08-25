@@ -1,0 +1,70 @@
+# ~/.liquidpromptrc
+# Clean Solarized-friendly Liquidprompt
+
+# ----- General -----
+LP_ENABLE_TITLE=1
+LP_ENABLE_SSH_COLORS=1
+
+# Keep the prompt compact
+LP_ENABLE_SHORTEN_PATH=1
+LP_PATH_LENGTH=35
+
+# ----- Prompt information -----
+LP_ENABLE_USER=0
+LP_USER_ALWAYS=1
+LP_ENABLE_HOST=0
+LP_HOST_ALWAYS=0
+
+# Git
+LP_ENABLE_VCS_ROOT=0
+LP_ENABLE_VCS=1
+LP_ENABLE_VCS_DETAILS=1
+
+# Show virtualenv when using Python
+LP_ENABLE_VIRTUALENV=1
+
+# Useful status information
+LP_ENABLE_ERROR=1
+LP_ENABLE_JOBS=1
+LP_ENABLE_RUNTIME=1
+
+# Don't clutter the prompt
+LP_ENABLE_LOAD=0
+LP_ENABLE_BATT=0
+LP_ENABLE_TEMP=0
+LP_ENABLE_PROXY=0
+
+# Shell level
+LP_ENABLE_SHLVL=0
+
+# Other
+#LP_MARK_DEFAULT="❯"
+LP_MARK_DEFAULT="►"
+#LP_MARK_DEFAULT="👉"
+LP_COLOR_MARK="\[\e[1;36m\]"
+
+# ----- Colors -----
+# ANSI colors work nicely with Solarized palette.
+
+# Host: cyan
+LP_COLOR_HOST="\[\e[1;36m\]"
+
+# Current directory: blue
+LP_COLOR_PATH="\[\e[1;34m\]"
+
+# Git/VCS: yellow
+LP_COLOR_VCS="\[\e[1;33m\]"
+
+# Successful state: green
+LP_COLOR_SUCC="\[\e[1;32m\]"
+
+# Errors: red
+LP_COLOR_ERR="\[\e[1;31m\]"
+
+# Jobs/runtime: cyan
+LP_COLOR_JOB_D="\[\e[0;36m\]"
+LP_COLOR_RUNTIME="\[\e[0;36m\]"
+
+# Prompt mark
+#LP_COLOR_MARK="\[\e[1;37m\]"
+

@@ -1,0 +1,31 @@
+TMUX CHEATSHEET
+──────────────────────────────────────────────
+
+WINDOWS
+Ctrl+N              Next window
+Ctrl+P              Previous window
+Ctrl+b c            New window
+Ctrl+b ,            Rename window
+
+PANES
+Shift+←              Left
+Shift+→              Right
+Shift+↑              Up
+Shift+↓              Down
+Ctrl+b %            Split horizontal
+Ctrl+b "            Split vertical
+Ctrl+b z            Zoom / unzoom
+
+POPUPS
+Ctrl+G              Temporary shell
+Ctrl+/              Show this cheatsheet
+Ctrl+D              Close temporary shell
+
+OPERATIONS
+Ctrl+b y            Toggle synchronize panes
+Ctrl+b [            Copy / scroll mode
+Ctrl+b r            Reload config
+
+SESSIONS
+Ctrl+b s            List sessions
+Ctrl+b d            Detach
