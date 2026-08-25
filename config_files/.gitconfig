@@ -1,6 +1,6 @@
 [user]
-      name = Domingo Rivera
-      email = domingo.rivera.barros@cern.ch
+      name = myname
+      email = myemail
 [alias]
       lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
       br = branch
@@ -15,3 +15,8 @@
       interactive = auto
       ui = true
       pager = true
+[core]
+      editor = vim
+[init]
+        defaultBranch = main
+
